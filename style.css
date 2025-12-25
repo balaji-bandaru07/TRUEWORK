@@ -1,0 +1,372 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 100%;
+    background: white;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+.navbar{
+    width: 100%;
+    height: 150px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    display: inline-block;
+    color: #03f03e;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial;
+    padding-top: 10px;
+    padding-left: 70px;
+    text-decoration: none;
+}
+.icon {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  padding: 6px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+} 
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.1s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(47, 165, 47);
+    
+}
+.signup {
+    border: 2px solid green;
+    padding: 4px;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+} 
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 300px;
+    height: 100px;
+    margin-left: 70px;
+    color: rgb(0, 255, 0);
+    position: relative;
+    top: 100px;
+    font-family: arial;
+    letter-spacing: 2px;
+    font-weight: 750;
+    font-size: 50px;
+}
+.ct-text {
+    color: rgb(161, 161, 161);
+    font-weight: bold;
+    font-size: 14px;
+    font-style: italic;
+}
+.content .cn{
+    width: 160px;
+    height:40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .1s ease;
+}
+.img {
+    padding-left: 550px;
+    padding-top: 100px;
+}
+/* Section First part */
+.first-sec {
+    height:600px;
+    width: 100%;
+    background-color: #cdffe6;
+    font-family: 'Macan', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.content-part {
+    padding-top: 50px;
+    padding-left: 70px;
+    font-size: 20px;
+    line-height: 40px;
+    color: #404145;
+}
+.content-part ul {
+    display: block;
+    padding-top: 20px;
+}
+li p {
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 50px;
+}
+h6 {
+    display: inline-block;
+    font-size: 21px;
+    line-height: 20px;
+    padding-left: 20px;
+}
+.fa-regular {
+    font-size: 22px;
+}
+.left-part {
+    padding-left: 450px;
+    margin-top: 50px;
+}
+/* SKILLS SECTION */
+.skills-section {
+    height:600px;
+    width: 100%;
+    background-color: #ffffff;
+    font-family: 'Macan', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.main-categories {
+    font-size: 25px;
+    line-height: 130%;
+    padding-top: 80px;
+    padding-left: 70px;
+    color: #212121;
+}
+.all-talent {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+.talent1 {
+    font-size: 20px;
+    margin-top: 60px;
+    width: 230px;
+    height: 120px;
+    background-color: #f7faf7;
+    border-radius: 10px;
+    padding: 14px 0 0 40px;
+}
+.talent1:hover {
+    transition: 0.5s;
+    background-color: rgb(209, 209, 209);
+    animation: pop 0.3 linear 1;
+}
+.talent-p {
+    font-weight: bold;
+}
+/*  COMPANY LOGO ITEM */
+.logo-items {
+    padding-left: 70px;
+    padding-top: 20px;
+    margin-top: 30px;
+    height: 100px;
+    width: 94%;
+    background-color: #ffffff;
+    border-top: 2px solid rgb(0, 255, 0, 0.5);
+}
+.logo-items p {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    padding-top: 8px;
+}
+.logo-inline {
+    display: flex;
+    column-gap: 50px;
+}
+.company-logo {
+    padding-top: 15px;
+}
+/* CLIENTS WORK */
+.clients {
+    width: 84%;
+    height: 85%;
+    padding-left: 70px;
+    padding-top: 50px;
+    border: 1px solid #131313;
+    border-radius: 15px;
+    margin: auto;
+    background-image: url(Images/working_image.webp);
+    image-resolution: 100px;
+    background-size: cover;
+}
+.content-clients {
+    padding-left: 10px;
+    color: white;
+}
+.clients-text  {
+    padding-top: 90px;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+}
+.clients-para {
+    padding-top: 25px;
+    font-size: 22px;
+    font-weight:500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+span {
+    color: #03f03e;
+}
+/* FOR TALENT */
+.talent {
+    width: 84%;
+    height: 85%;
+    padding-left: 70px;
+    padding-top: 50px;
+    margin-top: 50px;
+    border: 1px solid #131313;
+    border-radius: 15px;
+    margin: 72px;
+    background-image: url(Images/freelancer_img.jpg);
+    background-size: cover;
+}
+.forfreelancer {
+    color: #ff0000;
+}
+.content-talent {
+    padding-left: 400px;
+    color: white;
+    padding-left: 580px;
+}
+.talent-text  {
+    padding-top: 90px;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+}
+.talent-para {
+    padding-top: 25px;
+    font-size: 22px;
+    font-weight:500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+span {
+    color: #03f03e;
+}
+span:hover {
+    color: rgb(3, 217, 255);
+}
+.breakline {
+    width: 95%;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.freelancer-text {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.talent-btn {
+    margin-top: 80px;
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 60px;
+    color: rgb(75, 162, 233);
+    cursor: pointer;
+    border: 2px solid rgb(0, 255, 85);
+}
+/* FOOTER CSS */
+.footer-start{
+    height: 100%;
+    width: 100%;
+    /* margin: auto; */
+    border-top-left-radius: 125px;
+    color: white;
+    background-color: rgb(97, 143, 204);
+    /* background: linear-gradient(to right, #00093c, #2d0b00); */
+}
+/* Basic styles, adjust as needed */
+.footer {
+    /* background-color: #f8f8f8; */
+    padding: 150px 0;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+.footer-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+}
+.footer-section {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+ul {
+    padding: 0;
+}
+ul li {
+    margin-bottom: 8px;
+}
+  
+a {
+    color: #ffffff;
+}
+.social-icons a {
+    color: #d41313;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+.footer-bottom {
+    text-align: center;
+    margin-top: 200px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+/* SCroll Bar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #000000; 
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, rgb(23, 255, 0));
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(rgb(255, 0, 0), transparent);
+    transition: background 1s ease;
+  }
